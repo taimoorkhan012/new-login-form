@@ -1,0 +1,54 @@
+ html,body{
+height:100%;
+display: grid;
+place-items: center;
+background-color: rgb(47, 141, 141);
+}
+.logo{
+    background-color: aliceblue;
+    width: 380px;
+border-radius: 2px solid black;
+}
+.logo h1{
+    line-height: 100px;
+    background-color:rgb(15, 90, 80) ;
+    color: antiquewhite;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    }
+    
+.logo form{
+    padding: 30px 20px 25px 20px;
+}
+.row{
+    padding-bottom: 10px;
+    /* padding-left: 50px; */
+}
+.logo form .row{
+    height: 25px;
+    background-color:rgba(255, 255, 255, 0.384);
+    margin-bottom: 10px;
+position: relative;
+/* padding-left: 50px; */
+
+}
+.logo form .row input{
+    width: 90%;
+    height: 100%;
+    /* padding-left: 10px; */
+    margin-left: 20px;
+
+}
+.logo form .row i{
+    position: absolute;
+    /* width: 47px; */
+    /* height: 100%; */
+    font-size: 18px;
+    /* background-color: aqua; */
+    /* border: 1px solid rgb(rgb(46, 157, 177), green, blue); */
+    /* padding-right: px; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
